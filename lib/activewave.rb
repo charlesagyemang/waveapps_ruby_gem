@@ -7,7 +7,7 @@ Dotenv.load
 
 module ACTIVEWAVE
 
-  WAVE_API_URL = ENV['WAVE_API_URL']
+  WAVE_API_URL = "https://gql.waveapps.com/graphql/public"
   BUSINESS_ID  = ENV['BUSINESS_ID']
   API_TOKEN    = ENV['API_TOKEN']
 
