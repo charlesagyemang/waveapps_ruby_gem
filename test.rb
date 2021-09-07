@@ -9,7 +9,7 @@ puts "****************************************"
 # puts ACTIVEWAVE.create_sales_record("2021-09-08", BANK_AND_CASK[:cash_on_hand], INCOME_ACCOUNTS[3][:id], 33.22, "FROM FULL CODE TWO")
 # puts ACTIVEWAVE.create_expense_record("2021-09-07", BANK_AND_CASK[:cash_on_hand], EXPENSE_ACCOUNTS[3][:id], 2, "Nation Less spender")
 
-# puts ACTIVEWAVE.list_users
+# puts ACTIVEWAVE.get_current_user
 # puts ACTIVEWAVE.list_all_businesses
 # puts ACTIVEWAVE.list_all_products
 # puts ACTIVEWAVE.list_all_customers
