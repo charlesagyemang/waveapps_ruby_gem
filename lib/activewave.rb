@@ -241,6 +241,22 @@ module ACTIVEWAVE
     execute(LIST_USERS)
   end
 
+  def self.current_user
+    execute(LIST_USERS)
+  end
+
+  def self.get_user_details
+    execute(LIST_USERS)
+  end
+
+  def self.get_current_user
+    execute(LIST_USERS)
+  end
+
+  def self.user
+    execute(LIST_USERS)
+  end
+
   def self.list_all_products
     execute(LIST_ALL_PRODUCTS_QUERY)
   end
@@ -262,6 +278,14 @@ module ACTIVEWAVE
   end
 
   def self.list_all_incomes
+    list_assets_or_liabilities("INCOME")
+  end
+
+  def self.list_all_income
+    list_assets_or_liabilities("INCOME")
+  end
+
+  def self.list_incomes
     list_assets_or_liabilities("INCOME")
   end
 

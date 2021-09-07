@@ -15,3 +15,14 @@ gem install activewave
 API_TOKEN = "XXXXXXXXXXXXXXXXX"
 BUSINESS_ID = "XXXXXXXXXXXXXXXXXX"
 ```
+
+#### Step 3: Call it anywhere you want in the app or the script like so
+```ruby
+# lets get the current wave user account details
+puts ACTIVEWAVE.list_users
+```
+
+
+### Usage
+
+#### 
