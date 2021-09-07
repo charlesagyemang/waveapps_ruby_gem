@@ -1,4 +1,4 @@
-require_relative "module/wave_api"
+require "activewave"
 require_relative "credentials/details"
 
 puts "****************************************"

@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'hola'
+  s.name        = 'activewave'
   s.version     = '0.0.1'
   s.summary     = "ACTIVEWAVE!"
   s.description = "A Wrapper For Waveapps graphql API"
