@@ -6,8 +6,8 @@ require "net/http"
 module ACTIVEWAVE
 
   WAVE_API_URL = "https://gql.waveapps.com/graphql/public"
-  BUSINESS_ID  = "QnVzaW5lc3M6MDkyMWM2NjItODlhMy00NDk3LTkzYTktNTI2MzE3MGUyNTcx"
-  API_TOKEN    = "falcL269UemwhAuiPDbu9EirrINIrQ"
+  BUSINESS_ID  = ENV.fetch("#{BUSINESS_ID}")
+  API_TOKEN    = ENV.fetch("#{API_TOKEN}")
 
   url = URI(WAVE_API_URL)
 
